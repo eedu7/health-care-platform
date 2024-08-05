@@ -5,7 +5,7 @@ export const Input = (props) => {
   return (
     <div className="my-4">
       <label htmlFor={name}>{label}</label>
-      <div className="border border-gray-100 flex gap-4 p-4 mt-2 rounded-lg hover:border-green-400">
+      <div className="border border-gray-100 flex gap-4 p-4 mt-2 rounded-lg bg-gray-700 hover:border-green-400">
         <img src={iconSrc} alt="User Icon" />
         <input
         id={name ? name : ""}
